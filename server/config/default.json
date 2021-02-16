@@ -1,0 +1,6 @@
+{
+    "port": 5000,
+    "secret": "prosysyo",
+    "mongoUrl": "mongodb://localhost:27017/online24",
+    "baseUrl": "http://localhost:5000"
+}
