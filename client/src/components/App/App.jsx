@@ -1,6 +1,8 @@
 import React from 'react';
 import Button from '../Button/Button';
+import Icon from '../Icon/Icon';
 import Input from '../Input/Input';
+import IconButton from './../IconButton/IconButton';
 
 const  App = () => { 
     const onClick = () => {
@@ -29,7 +31,23 @@ const  App = () => {
                 <br/>                
                 <Input id='text3' type='text' label='City' error='Ошибка' placeholder='Input с ошибкой'/>
             </div>
-            
+            <div>
+                <div>Icons</div>
+                <Icon name='edit' size={30}/>
+                <br/>
+                
+                <Icon name='plus-square' size={20}/>
+                <br/>
+
+                <Icon name="align-right" />
+                <br/>
+                <Icon title="badge" size={30} name="award" />
+            </div>  
+            <div>
+                <IconButton iconName='edit' iconSize={16} text='Редактировать'/>
+                <br/>
+                <IconButton iconName='plus-square' iconSize={16}/>
+            </div>  
         </div>        
     );
 }

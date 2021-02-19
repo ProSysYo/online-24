@@ -1,0 +1,39 @@
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 0;    
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+    outline: none;    
+    border-radius: 4px;
+    color: grey;
+    transition: all .3s;
+    margin: 0;
+    border: 1px solid rgb(173, 164, 164, 0.5);
+}
+
+.btnIcon {
+    height: 30px;
+    width: 30px;
+}
+
+.btnIconText { 
+    padding: 4px 10px;
+}
+
+.btn:hover {
+    opacity: 0.8;    
+    box-shadow: 0 0 0 1px rgb(24 144 255 / 20%); 
+}
+
+.btn:active {    
+    background-color: rgb(173, 164, 164, 0.5);
+}
+.btnText {
+    padding-left: 5px;
+    font-size: 12px;
+    color: black;
+}
